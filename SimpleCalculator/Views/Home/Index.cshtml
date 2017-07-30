@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Simple Calculator";
+}
+<p>
+    <h2>Simple Calculator</h2>
+    <h4 id="infoText"><b>Please insert two numbers, select an operator and click "Submit".</b></h4>
+    <h5 id="infoText2">For singel value calculations use the "Number 2" input field only.</h5>
+    <input type="number" id="num1" placeholder="Number 1" autofocus />
+    <select id="operatOr" >
+        <option>+</option>
+        <option>-</option>
+        <option>*</option>
+        <option>/</option>
+        <option>%</option>
+        <option>^</option>
+        <option>√</option>
+        <option>cos</option>
+        <option>sin</option>
+        <option>tan</option>
+    </select>
+    <input class="" type="number" id="num2" placeholder="Number 2" /> <br />
+    <button class="btn btn-primary" id="button">Submit</button>
+    <div id="resultText"></div>
+</p>
